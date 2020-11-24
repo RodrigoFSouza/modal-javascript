@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup Modal com Javascript</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <button id="modal-open">Contato</button>
+
+  <div id="modal-contato" class="modal">
+    <div id="modal-content">
+      <div id="modal-header">
+        <span class="close-modal">&times;</span>
+        <h2>Efetive code Acade</h2>
+      </div>
+      <div id="modal-body">
+        <h3>Send US a Message</h3>
+        <form action="">
+          <div class="form-group">
+            <label for="first-name">Nome</label>
+            <input type="text" placeholer="Entre com seu nome">
+          </div>
+          <div class="form-group">
+            <label for="first-name">Telefone</label>
+            <input type="text" placeholer="Informe seu telefone">
+          </div>
+          <div class="form-group">
+            <label for="first-name">Email</label>
+            <input type="text" placeholer="Informe seu email">
+          </div>
+          <div class="form-group">
+            <label for="first-name">Mensagem</label>
+            <textarea type="text" placeholer="Informe sua mensagem"></textarea>
+          </div>
+          <button type="submit" value="Send Message" id="btn-enviar">Enviar</button>
+        </form>
+      </div>
+      <div id="modal-footer">
+        <h3>Effect Code Academy &copy; 2019</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/formulario.js"></script>
+</body>
+</html>
